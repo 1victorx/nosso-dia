@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(255, 225, 230);
+    text-align: center;
+}
+h1{
+    color: rgb(253, 42, 42);
+}
+main{
+    background-color: white;
+    border-radius: 20px;
+    min-height: 100vh;
+}
+button{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 250ms ease-in-out;
+    font-size: 15px;
+    box-shadow: 3px 5px 3px;
+}
+button:hover{
+    transform: scale(1.4)
+}
+input{
+    background-color: rgb(227, 227, 227);
+    border-radius: 7px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    display: block;
+    margin: auto;
+    font-size: 15px;
+    box-shadow: 3px 5px 3px rgb(53, 53, 53);
+}
+input:hover{
+    transform: scale(1.1);
+}

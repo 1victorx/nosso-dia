@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><main>
+    <div>
+        <h1>Bem-vinda ao grande teste</h1>
+    </div>
+
+    <div>
+        <h4>Aqui você vai responder algumas perguntas sobre nós</h4>
+        <p>Primeiramente, digite o seu nome:</p>
+        <input type="text" id="barra">
+    </div>
+    <p>Certo, agora você irá ter algumas opções e deve marcar a alternativa correta para poder liberar o acesso</p>
+    
+    <p><strong>Qual o dia que a gente começou a namorar</strong></p>
+
+    <div>
+        <button class="errado">dia 12</button>
+        <button class="errado">dia 26</button> 
+        <button class="errado">dia 19</button> 
+        <button id="correto">dia 2</button>
+        <a href="namoro/index3.html" id="namoro"></a>
+    </div>
+
+    <div>
+        <p><strong>Qual foi o dia em que a gente saiu pra pra praia pela primeira vez</strong></p>
+
+        <button onclick="errou()">13 de junho</button>
+        <button onclick="errou()">12 de junho</button>
+        <button onclick="errou()">6 de junho</button>
+        <button onclick="boa()">7 de junho</button>
+    </div>
+</main>
+<a href="praia/index2.html" id="praia"></a>
+</body>
+<script src="java.js"></script>
+</html>

@@ -1,0 +1,52 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    justify-items: center;
+    background: linear-gradient(rgb(255, 208, 215), rgb(139, 255, 139));
+    background-attachment: fixed;
+    text-align: justify;
+  line-height: 1.2;
+  color: #000000;
+}
+
+audio{
+    border-radius: 130px;
+    border: 10px;
+    box-shadow: 5px 5px 10px;
+}
+select{
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+}
+
+
+div{
+    display: flex;
+    gap: 10px;
+}
+img{
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px;
+    image-rendering: pixelated
+}
+img:hover{
+    transform:scale(1.2);
+    cursor: pointer;
+    transition: 350ms ease-in-out;
+
+}
+img:active{
+    transform:scale(1.5)
+}
+.videos{
+    border-radius: 15px;
+    image-rendering: pixelated;
+    gap: 20px;
+}
+.videos:hover{
+     transform:scale(1.1);
+    cursor: pointer;
+    transition: 350ms ease-in-out;
+}
